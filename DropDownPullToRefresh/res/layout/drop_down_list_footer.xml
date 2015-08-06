@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/drop_down_list_footer_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:indeterminate="true"
+        android:maxHeight="36dp"
+        android:minHeight="36dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/drop_down_list_footer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="点击获取更多"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+</LinearLayout>
